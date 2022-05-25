@@ -1,0 +1,56 @@
+/* a minimalist set of CSS resets */
+
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 18px;
+  color:white;
+  background-color:black
+}
+main{color:red}
+header {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  color:aquamarine
+}
+
+h2{font-size:16px}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+r{color:rgb(0, 17, 128)}
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: sans-serif;
+  background-color: black;
+  line-height: 1.5;
+}
+
+* { 
+  margin: 0px; 
+  padding: 0px; 
+}
+
+footer{
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  color:black;
+  text-align: center;
+}
+a{
+  color:inherit;
+  text-decoration: none;
+}
+ul.footer-menu li {
+display: inline;
+}
+
+
+/* about button */
+
